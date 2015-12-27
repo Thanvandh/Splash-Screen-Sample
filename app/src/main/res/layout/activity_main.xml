@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hostelrun" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="125px"
+        android:layout_marginRight="125px"
+        android:background="#55ffffff"
+        android:padding="5dp">
+
+        <View
+            android:id="@+id/view_progress"
+            android:layout_width="250px"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark" />
+    </FrameLayout>
+</RelativeLayout>
