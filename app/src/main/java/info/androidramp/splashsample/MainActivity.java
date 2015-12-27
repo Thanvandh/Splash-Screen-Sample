@@ -1,5 +1,9 @@
 package info.androidramp.splashsample;
 
+/**
+ * Created by Thanvandh on 27/12/2015.
+ */
+
 import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -33,7 +37,7 @@ public class MainActivity extends Activity {
         animationSet.addAnimation(move);
         animationSet.addAnimation(move1);
         animationSet.addAnimation(laftOut);
-        animationSet.addAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide));
+        animationSet.addAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slideout));
 
         startAnimation();
     }
